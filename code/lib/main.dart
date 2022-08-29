@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'package:code/home_page_view/home_view.dart';
-import 'package:code/home_page_view/profile_view.dart';
-import 'package:code/home_page_view/transaction_view.dart';
+import 'package:code/home_page_view/home_view/home_view.dart';
+import 'package:code/home_page_view/profile_view/profile_view.dart';
+import 'package:code/home_page_view/transaction_view/transaction_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -42,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: Color(0xff343A40),
+        backgroundColor: const Color(0xff212529),
         title: Text(
           widget.title,
           style: const TextStyle(color: Colors.white, letterSpacing: 5),
@@ -59,7 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
-        fixedColor: const Color(0xff0077b6),
+        fixedColor: const Color(0xff00b4d8),
         backgroundColor: const Color(0xffffffff),
         currentIndex: focusBtnNav,
         onTap: (value) {
