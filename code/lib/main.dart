@@ -42,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: Color(0xff284b63),
+        backgroundColor: Color(0xff343A40),
         title: Text(
           widget.title,
           style: const TextStyle(color: Colors.white, letterSpacing: 5),
@@ -59,8 +59,8 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
-        fixedColor: const Color(0xff3c6e71),
-        backgroundColor: Color(0xffffffff),
+        fixedColor: const Color(0xff0077b6),
+        backgroundColor: const Color(0xffffffff),
         currentIndex: focusBtnNav,
         onTap: (value) {
           setState(() {
