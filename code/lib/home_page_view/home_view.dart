@@ -65,7 +65,7 @@ class _HomeViewState extends State<HomeView> {
                         height: 50,
                         child: Icon(
                           Icons.circle,
-                          color: Color(0xffd90429),
+                          color: Color(0xff3c6e71),
                         ),
                       ),
                       const SizedBox(
@@ -102,6 +102,7 @@ class _HomeViewState extends State<HomeView> {
                           style: TextStyle(fontSize: 16),
                         ),
                         Switch(
+                          activeColor: Color(0xff3c6e71),
                           value: extraHelmet,
                           onChanged: (value) {
                             setState(
